@@ -1,0 +1,80 @@
+body{
+  background-color: #fafafa;
+}
+
+.bg-red{
+  background-color: #d4021b;
+}
+
+.bg-blue{
+  background-color: #0149b6;
+}
+
+.font-14{
+  font-size: 14px;
+}
+
+.font-15{
+  font-size: 15px;
+}
+
+.font-16{
+  font-size: 16px;
+}
+
+.font-20{
+  font-size: 20px;
+}
+
+.bg-red .navbar-brand{
+  color: white;
+}
+
+.text-blue{
+  color: #0149b6;
+}
+
+.text-grey{
+  color: #8c8c8c;
+}
+
+.dotted-line{
+  border-bottom: 2px dotted #0149b6;
+  position: absolute;
+  top: 40%;
+}
+
+.dotted-line::before{
+  content: '';
+   width: 15px;
+   height: 15px;
+   -moz-border-radius: 7.5px;
+   -webkit-border-radius: 7.5px;
+   border-radius: 7.5px;
+   background-color: #0149b6;
+   position: absolute;
+   left: 0;
+   top: 1px;
+}
+
+.dotted-line::after{
+  content: '';
+   width: 15px;
+   height: 15px;
+   -moz-border-radius: 7.5px;
+   -webkit-border-radius: 7.5px;
+   border-radius: 7.5px;
+   background-color: #0149b6;
+   position: absolute;
+   right: 0;
+   top: 1px;
+}
+
+.fixed-container{
+  max-height: 92vh;
+  overflow: scroll;
+}
+
+.plane-img{
+  width: 60px;
+}
